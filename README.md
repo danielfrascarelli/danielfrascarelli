@@ -50,7 +50,7 @@ I own architecture and delivery and stay close to the code.
 | [**peluffo-api**](https://github.com/danielfrascarelli/peluffo-api) | REST API for Peluffo: cookie-based JWT auth for three staff roles, patients, psychologists and assignments | NestJS 11 · argon2 · Pino · Swagger · Helmet · Throttler |
 | [**asteroid-encounter-catalog**](https://github.com/danielfrascarelli/asteroid-encounter-catalog) | Detection pipeline and catalog of asteroid close encounters in the Gaia DR3 window (2014–2017): MPC orbital elements, KD-tree spatial search, N-body refinement | Python · SciPy KD-tree · rebound |
 | [**engineering-standards**](https://github.com/danielfrascarelli/engineering-standards) | Single source of truth for engineering rules, versioned and consumed as a git submodule by every repo | Shell · Markdown · AGENTS.md |
-| [**overleaf**](https://github.com/danielfrascarelli/overleaf) | <!-- TODO: description --> LaTeX documents | TeX |
+| [**overleaf**](https://github.com/danielfrascarelli/overleaf) | Computer Engineering thesis (UdelaR): parallel self-gravity for DEM granular agglomerates (rubble-pile asteroids) with a 3D grid, hierarchical mass approximation (MADA) and a shared-memory thread pool, integrated into ESyS-Particle. Speedup 13.4 with 16 threads on 10⁶+ particles | LaTeX · C++ · multithreading · MPI |
 
 > 🔐 Also building [**Face Auth**](https://face-auth.me): "sign in with your face", the same shape as sign in with Google. In production.
 

@@ -105,7 +105,7 @@ Descartado a propósito: contadores de visitas, gifs, WakaTime, estadísticas "v
 | peluffo-api | https://github.com/danielfrascarelli/peluffo-api | API REST con JWT por cookie para 3 roles de staff | NestJS 11 · argon2 · Pino · Swagger · Helmet |
 | asteroid-encounter-catalog | https://github.com/danielfrascarelli/asteroid-encounter-catalog | Pipeline de encuentros cercanos de asteroides en la ventana Gaia DR3 | Python · KD-tree · rebound |
 | engineering-standards | https://github.com/danielfrascarelli/engineering-standards | Reglas de ingeniería versionadas, consumidas como submódulo | Shell · Markdown · AGENTS.md |
-| overleaf | https://github.com/danielfrascarelli/overleaf | Documentos LaTeX (descripción TODO) | TeX |
+| overleaf | https://github.com/danielfrascarelli/overleaf | Tesis de grado (UdelaR, 2018): auto-gravedad paralela en aglomerados granulares DEM; grilla 3D + MADA + thread pool, integrada a ESyS-Particle; speedup 13.4 con 16 hilos sobre >10⁶ partículas | LaTeX · C++ · multithreading · MPI |
 
 Nota aparte de una línea: "Also building **Face Auth**: face-recognition login provider, in production" → https://face-auth.me (el repo `Face-Auth/face-auth` es privado).
 
@@ -144,7 +144,7 @@ https://www.goatcounter.com — analítica open source, sin cookies, sin guardar
 
 ## Pendientes
 
-- [ ] Descripción de `overleaf`.
+- [x] Descripción de `overleaf` (desde la tesis; README propio en el repo `overleaf`).
 - [ ] Revisar textos de los proyectos Peluffo.
 - [ ] Revisar que README, LinkedIn y CV digan el mismo título y fechas.
 - [ ] Crear el repo público y pushear.
