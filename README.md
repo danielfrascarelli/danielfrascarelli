@@ -1,19 +1,18 @@
 <div align="center">
 
 <a href="https://github.com/danielfrascarelli">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3500&pause=900&color=3B82F6&center=true&vCenter=true&width=640&lines=Software+Engineer;Backend+%C2%B7+Frontend+%C2%B7+Observability;NestJS+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+Python;Computer+vision+%26+scientific+computing" alt="Software Engineer · Backend · Frontend · Observability" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3500&pause=900&color=3B82F6&center=true&vCenter=true&width=640&lines=Technical+Lead+(hands-on);React+%C2%B7+Node.js+%2F+NestJS+%C2%B7+Python+%C2%B7+AWS;Architecture+%26+delivery%2C+still+writing+code;Remote+from+Uruguay" alt="Technical Lead (hands-on) · React · Node.js / NestJS · Python · AWS · Remote from Uruguay" />
 </a>
 
 # Hi, I'm Daniel 👋
 
-<!-- TODO: role, years of experience, one-line focus -->
-**Software Engineer** at **frasal** building multi-tenant backends, real-time UIs and data pipelines.<br/>
-Typed, tested, observable systems · Computer vision integrations · Scientific computing.
+**Technical Lead (hands-on)** with 15+ years building software for clients in the US, Europe and Latin America.<br/>
+I own architecture and delivery and stay close to the code.
 
-📍 Montevideo, Uruguay
+📍 Montevideo, Uruguay · 🌎 Remote (UTC−3)
 
 <samp>
-  <a href="https://daniel.frascarelli.com.uy">web</a> ·
+  <a href="https://daniel.frascarelli.com.uy/?utm_source=github">web</a> ·
   <a href="https://uy.linkedin.com/in/daniel-frascarelli">linkedin</a> ·
   <a href="mailto:dsanfra@gmail.com">email</a>
 </samp>
@@ -24,12 +23,22 @@ Typed, tested, observable systems · Computer vision integrations · Scientific 
 
 ## 🧭 About me
 
-<!-- TODO: review / complete -->
-- 🛠️ Full-stack engineer with a backend core: **NestJS, Prisma, MySQL**, WebSockets, background pipelines
-- 📈 Production-minded: **OpenTelemetry tracing, Prometheus metrics, Sentry**, circuit breakers, health checks, graceful shutdown
-- 🎥 Integrating **computer vision** into products: camera/DVR ingestion, person detection, zone evaluation, live alerts
-- 🔭 Scientific computing in **Python**: orbital mechanics, spatial indexing, N-body simulation
-- 📐 Engineering standards as code: versioned shared rules, plan-driven work, AI-assisted workflows with explicit agent contracts
+- 🛠️ Hands-on technical lead: architecture, technical decisions and delivery, without leaving the code
+- 🌎 15+ years working remotely with teams in the **US, Europe and Latin America**
+- ⚙️ Today: **React + TypeScript** on the frontend, **Node.js / NestJS + Python** on the backend. Behind them: Java, .NET and Angular
+- 🔐 Building [**Face Auth**](https://face-auth.me): a face-recognition login provider in production, built end to end (React, NestJS, Python recognition service, AWS)
+- 📈 Production-minded: OpenTelemetry tracing, Prometheus metrics, Sentry, circuit breakers, health checks
+- 🔭 Background in **high-performance and scientific computing**: published research on parallel self-gravity algorithms for small Solar System bodies
+
+## 💼 Experience highlights
+
+- **Santander Uruguay** · Technical Project Manager · 2023 – 2026: large-scale migration of sensitive corporate records; led three senior developers for three years, reviewing and writing code
+- **TensorCare / MedX (Chile)** · Technical Lead · 2021: AWS architecture (SageMaker, EC2, RDS, S3, CloudFront) for a production MRI-analysis platform; React + Node.js / Python
+- **Hypersonix.ai** · Software Consultant · 2021 – 2023: React dashboards for predictive analytics and Apache Airflow pipeline components in Python / Pandas
+- **BigBang** · Technical Project Manager · 2023: product built from the ground up with Angular and .NET, contributing code alongside the PM role
+- **Movistar Uruguay** · Full Stack Developer · 2016 – 2019: C# / .NET / Angular; monolith to microservices, SOAP to REST
+
+> 💼 Most of my professional work lives in private client repositories. Full history on [LinkedIn](https://uy.linkedin.com/in/daniel-frascarelli).
 
 ## 🚀 Featured projects
 
@@ -43,23 +52,29 @@ Typed, tested, observable systems · Computer vision integrations · Scientific 
 | [**engineering-standards**](https://github.com/danielfrascarelli/engineering-standards) | Single source of truth for engineering rules, versioned and consumed as a git submodule by every repo | Shell · Markdown · AGENTS.md |
 | [**overleaf**](https://github.com/danielfrascarelli/overleaf) | <!-- TODO: description --> LaTeX documents | TeX |
 
-> 🧑‍🔬 Also building [**Face Auth**](https://github.com/Face-Auth/face-auth).
+> 🔐 Also building [**Face Auth**](https://face-auth.me): "sign in with your face", the same shape as sign in with Google. In production.
 
 ## 🧰 Tech stack
 
 **Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=react,ts,js,vite,tailwind&perline=12" alt="React, TypeScript, JavaScript, Vite, Tailwind" />
+<img src="https://skillicons.dev/icons?i=react,ts,js,angular,vite,tailwind&perline=12" alt="React, TypeScript, JavaScript, Angular, Vite, Tailwind" />
 
 **Backend & Data**<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,nestjs,prisma,mysql,sqlite,py&perline=12" alt="Node.js, NestJS, Prisma, MySQL, SQLite, Python" />
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,py,prisma,mysql,postgres,sqlite&perline=12" alt="Node.js, NestJS, Python, Prisma, MySQL, PostgreSQL, SQLite" />
 
 **Cloud, DevOps & Observability**<br/>
 <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,prometheus,sentry,linux,bash,git&perline=12" alt="AWS, Docker, GitHub Actions, Prometheus, Sentry, Linux, Bash, Git" />
 
-**Docs & Science**<br/>
-<img src="https://skillicons.dev/icons?i=latex&perline=12" alt="LaTeX" />
+**Also worked with**<br/>
+<img src="https://skillicons.dev/icons?i=dotnet,cs,java,latex&perline=12" alt=".NET, C#, Java, LaTeX" />
 
-Also: OpenTelemetry · Socket.IO · HLS · Pino · opossum · Zod · React Query · rebound · KD-trees
+Also: OpenTelemetry · Socket.IO · HLS · Apache Airflow · Pandas · Zod · TanStack Query · rebound · KD-trees
+
+## 📄 Publications
+
+- *High-Performance Computing of Self-Gravity for Small Solar System Bodies.* IEEE Computer 47(9), 2014.
+- *A Parallel Multithreading Algorithm for Self-Gravity Calculation on Agglomerates.* ISUM 2015, Springer CCIS 595.
+- *Performance Improvements of a Parallel Multithreading Self-gravity Algorithm.* Springer CCIS, 2017.
 
 ## 📊 GitHub activity
 
@@ -80,7 +95,9 @@ Also: OpenTelemetry · Socket.IO · HLS · Pino · opossum · Zod · React Query
 
 ## 🤝 Let's connect
 
-Happy to talk about backend architecture, observability, computer vision integrations or scientific computing.<br/>
-Reach out on [LinkedIn](https://uy.linkedin.com/in/daniel-frascarelli) or by [email](mailto:dsanfra@gmail.com).
+Happy to talk about architecture, technical leadership, observability or computer vision in production.<br/>
+Reach out on [LinkedIn](https://uy.linkedin.com/in/daniel-frascarelli), by [email](mailto:dsanfra@gmail.com) or through [my site](https://daniel.frascarelli.com.uy/?utm_source=github).
 
-🗣️ Spanish (native) · English
+🗣️ Spanish (native) · English (professional) · Portuguese (limited)
+
+<img src="https://daniel-frascarelli.goatcounter.com/count?p=/github-profile&t=GitHub%20profile" alt="" width="1" height="1" />
