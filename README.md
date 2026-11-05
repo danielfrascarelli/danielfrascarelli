@@ -15,7 +15,7 @@ Typed, tested, observable systems · Computer vision integrations · Scientific 
 <samp>
   <a href="https://daniel.frascarelli.com.uy">web</a> ·
   <a href="https://uy.linkedin.com/in/daniel-frascarelli">linkedin</a> ·
-  <a href="mailto:danielfrascarellisalvador+github@gmail.com">email</a>
+  <a href="mailto:dsanfra@gmail.com">email</a>
 </samp>
 
 </div>
@@ -37,8 +37,9 @@ Typed, tested, observable systems · Computer vision integrations · Scientific 
 |---|---|---|
 | [**tu-seguridad-back**](https://github.com/lucianaprat/tu-seguridad-back) | Person detection in restricted zones: multi-tenant spaces, DVR camera discovery, percentage-outline zones with hysteresis, alert history, live WebSocket push | NestJS · Prisma · MySQL · Socket.IO · OpenTelemetry · Prometheus · Sentry |
 | [**tu-seguridad-front**](https://github.com/LucianaPrat/tu-seguridad-front) | Security monitoring UI: live detection events and on-demand HLS camera streams | React 19 · TypeScript · Vite · TanStack Query · Zustand · Tailwind |
+| [**peluffo**](https://github.com/danielfrascarelli/peluffo) | Patient and volunteer-psychologist management SPA: role-based staff views, dashboards | React 18 · TypeScript · Vite 6 · TanStack Query · Zod · Recharts · Tailwind |
+| [**peluffo-api**](https://github.com/danielfrascarelli/peluffo-api) | REST API for Peluffo: cookie-based JWT auth for three staff roles, patients, psychologists and assignments | NestJS 11 · argon2 · Pino · Swagger · Helmet · Throttler |
 | [**asteroid-encounter-catalog**](https://github.com/danielfrascarelli/asteroid-encounter-catalog) | Detection pipeline and catalog of asteroid close encounters in the Gaia DR3 window (2014–2017): MPC orbital elements, KD-tree spatial search, N-body refinement | Python · SciPy KD-tree · rebound |
-| [**justinsurance-support-desk**](https://github.com/danielfrascarelli/justinsurance-support-desk) | Multi-tenant support desk over a CRM-like provider: tenant isolation, exact-text reply approval, delivery tracking, idempotent inbound events | Node.js 24 · built-in SQLite |
 | [**engineering-standards**](https://github.com/danielfrascarelli/engineering-standards) | Single source of truth for engineering rules, versioned and consumed as a git submodule by every repo | Shell · Markdown · AGENTS.md |
 | [**overleaf**](https://github.com/danielfrascarelli/overleaf) | <!-- TODO: description --> LaTeX documents | TeX |
 
@@ -80,6 +81,6 @@ Also: OpenTelemetry · Socket.IO · HLS · Pino · opossum · Zod · React Query
 ## 🤝 Let's connect
 
 Happy to talk about backend architecture, observability, computer vision integrations or scientific computing.<br/>
-Reach out on [LinkedIn](https://uy.linkedin.com/in/daniel-frascarelli) or by [email](mailto:danielfrascarellisalvador+github@gmail.com).
+Reach out on [LinkedIn](https://uy.linkedin.com/in/daniel-frascarelli) or by [email](mailto:dsanfra@gmail.com).
 
 🗣️ Spanish (native) · English
