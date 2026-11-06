@@ -64,7 +64,7 @@ jobs:
           plugin_activity: yes
           plugin_activity_limit: 6
           plugin_activity_days: 30
-          plugin_activity_filter: push, pr, review, release, ref/create
+          plugin_activity_filter: pr, review, release, ref/create  # push omitted: GitHub Events API no longer returns commits, metrics v3.34 crashes
 
       - name: Contribution snake
         uses: Platane/snk@v3.5.0
