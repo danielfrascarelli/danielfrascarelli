@@ -53,19 +53,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      - name: Recent activity
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.activity.svg
-          output_action: none
-          config_timezone: America/Montevideo
-          base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 6
-          plugin_activity_days: 30
-          plugin_activity_filter: pr, review, release, ref/create  # push omitted: GitHub Events API no longer returns commits, metrics v3.34 crashes
-
       - name: Contribution snake
         uses: Platane/snk@v3.5.0
         with:

@@ -73,7 +73,7 @@ Perfil base: https://github.com/chrystiamjr — su workflow: https://github.com/
 | [chrystiamjr](https://github.com/chrystiamjr) | Header con typing SVG, badges, tabla de proyectos con stack, íconos por capa, metrics + snake | Estructura base completa y el workflow |
 | [simonw](https://github.com/simonw) (Simon Willison, Datasette) | 3 columnas autoactualizadas: releases, blog, TILs | Idea de secciones vivas vía Actions |
 | [tw93](https://github.com/tw93) | Stats inline + últimas releases autoactualizadas | Idea de "latest releases" a futuro |
-| [lowlighter](https://github.com/lowlighter) | Autor de [lowlighter/metrics](https://github.com/lowlighter/metrics) | Plugins base, languages, isocalendar, activity |
+| [lowlighter](https://github.com/lowlighter) | Autor de [lowlighter/metrics](https://github.com/lowlighter/metrics) | Plugins base, languages, isocalendar (plugin activity descartado, ver Workflow) |
 | [Platane](https://github.com/Platane) | Autor de [Platane/snk](https://github.com/Platane/snk) | Snake con `<picture>` light/dark |
 | [antfu](https://github.com/antfu) (Vue/Vite core) | Línea de links en `<samp>` minimalista | Fila de links web · linkedin · email |
 | [DenverCoder1](https://github.com/DenverCoder1) | Autor de [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) | Header animado |
@@ -92,7 +92,7 @@ Descartado a propósito: contadores de visitas, gifs, WakaTime, estadísticas "v
 4. **Featured projects**: tabla Project · Description · Stack + línea de Face Auth.
 5. **Tech stack** por capa con [skillicons.dev](https://skillicons.dev).
 6. **Publications**: 3 papers.
-7. **GitHub activity**: igual que chrystiamjr (tarjeta base con activity/community/repositories + lenguajes más usados + snake), más isocalendar y actividad reciente.
+7. **GitHub activity**: igual que chrystiamjr (tarjeta base con activity/community/repositories + lenguajes más usados + snake), más isocalendar.
 8. **Let's connect** + idiomas (Spanish native · English professional · Portuguese limited) + píxel GoatCounter.
 
 ### Proyectos
@@ -124,7 +124,8 @@ Excluidos por decisión: `kiwi`, `kiwi-cli`, `esys-particle`, `angular-jwt-demo`
 
 - Disparadores: cron diario `0 6 * * *`, `workflow_dispatch`, push que cambie el workflow.
 - Pasos:
-  - `lowlighter/metrics@v3.34` × 4 → `metrics.base.svg`, `metrics.languages.svg`, `metrics.isocalendar.svg`, `metrics.activity.svg` (timezone `America/Montevideo`).
+  - `lowlighter/metrics@v3.34` × 3 → `metrics.base.svg`, `metrics.languages.svg`, `metrics.isocalendar.svg` (timezone `America/Montevideo`).
+  - Plugin `activity` removido (nov 2026): la Events API de GitHub ya no devuelve `commits` en PushEvent y metrics v3.34 falla con "Unexpected error" (`commits.filter` sobre undefined). Fix pendiente upstream: lowlighter/metrics#1834. Reagregar cuando salga un release que lo incluya.
   - `Platane/snk@v3.5.0` → `github-snake.svg`, `github-snake-dark.svg`.
   - `crazy-max/ghaction-github-pages@v5.0.0` → publica todo en el branch `output`.
 - Secret requerido: `METRICS_TOKEN` = PAT classic con scope `read:user` (agregar `repo` para incluir repos privados en las stats).
@@ -166,7 +167,7 @@ Alternativa permanente: `gh auth switch -u danielfrascarelli` (afecta a todos lo
 ## Verificación
 
 - `gh api markdown -f text="$(cat README.md)" -f mode=gfm` → renderiza sin error.
-- Tras el primer run: `gh api repos/danielfrascarelli/danielfrascarelli/contents?ref=output` lista los 6 SVG.
+- Tras el primer run: `gh api repos/danielfrascarelli/danielfrascarelli/contents?ref=output` lista los 5 SVG.
 - Abrir https://github.com/danielfrascarelli en modo claro y oscuro: imágenes cargan, snake cambia de paleta.
 
 ## Ideas a futuro

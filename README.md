@@ -82,7 +82,6 @@ Also: OpenTelemetry · Socket.IO · HLS · Apache Airflow · Pandas · Zod · Ta
   <img src="https://raw.githubusercontent.com/danielfrascarelli/danielfrascarelli/output/metrics.base.svg" alt="GitHub stats" />
   <img src="https://raw.githubusercontent.com/danielfrascarelli/danielfrascarelli/output/metrics.languages.svg" alt="Most used languages" />
   <img src="https://raw.githubusercontent.com/danielfrascarelli/danielfrascarelli/output/metrics.isocalendar.svg" alt="Contribution calendar" />
-  <img src="https://raw.githubusercontent.com/danielfrascarelli/danielfrascarelli/output/metrics.activity.svg" alt="Recent activity" />
 </div>
 
 <div align="center">
